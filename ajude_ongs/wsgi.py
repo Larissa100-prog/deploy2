@@ -1,5 +1,5 @@
 """
-WSGI config for deploy4 project.
+WSGI config for ajude ongs project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'deploy4.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'ajude_ongs.settings')
 
 application = get_wsgi_application()
